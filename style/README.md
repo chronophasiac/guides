@@ -35,7 +35,7 @@ Formatting
 * Use spaces around operators, after commas, after colons and semicolons, around
   `{` and before `}`.
 * Use [Unix-style line endings] (`\n`).
-* Ensure there is an empty line at EOF.
+* Ensure there is one empty line at EOF.
 * Use [uppercase for SQL key words and lowercase for SQL identifiers].
 
 [uppercase for SQL key words and lowercase for SQL identifiers]: http://www.postgresql.org/docs/9.2/static/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS
