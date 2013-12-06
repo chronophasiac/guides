@@ -159,6 +159,11 @@ ERb
   interpolation operator and keep each method argument on its own line.
 * Prefer double quotes for attributes.
 
+HAML
+----
+
+* Insert a space between `=` and the Ruby to be evaluated.
+
 HTML
 ----
 
