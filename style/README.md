@@ -35,6 +35,7 @@ Formatting
 * Use spaces around operators, after commas, after colons and semicolons, around
   `{` and before `}`.
 * Use [Unix-style line endings] (`\n`).
+* Ensure there is an empty line at EOF.
 * Use [uppercase for SQL key words and lowercase for SQL identifiers].
 
 [uppercase for SQL key words and lowercase for SQL identifiers]: http://www.postgresql.org/docs/9.2/static/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS
@@ -178,6 +179,7 @@ Rails
 * Put application-wide partials in the [`app/views/application`] directory.
 * Use `def self.method`, not the `scope :method` DSL.
 * Use the default `render 'partial'` syntax over `render partial: 'partial'`.
+* Favor `.size` over `.count`.
 
 [`app/views/application`]: http://asciicasts.com/episodes/269-template-inheritance
 
